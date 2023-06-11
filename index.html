@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="stickerscard">
+            <p>Puedes seleccionar hasta 10 stickers en total</p>
+            <div class="card">
+                <div class="sticker">
+                    <img src="assets/img/sticker1-removebg-preview.png" alt="sticker1">
+                    <input min=0 max=10 type="number" placeholder="0" id="sticker1">
+                </div>
+                <div class="sticker">
+                    <img src="assets/img/sticker2-removebg-preview.png" alt="sticker2">
+                    <input min=0 max=10 type="number" placeholder="0" id="sticker2">
+                </div>
+                <div class="sticker">
+                    <img src="assets/img/sticker3-removebg-preview.png" alt="sticker3">
+                    <input min=0 max=10 type="number" placeholder="0" id="sticker3">
+                </div>
+            </div>
+            <div class="evento1">
+                <p id="advertencia1"></p>
+                <button onclick="seleccion()">Verificar</button>
+            </div>
+        </div>
+        <div class="mb1">
+            <div class="mb2">
+                <img onclick="border1()" class="imgmb" src="assets/img/sm1.png" alt="">
+                <h1>Haz click en la imagen</h1>
+            </div>
+            <div class="Password">
+                <p>Indica contraseña</p>
+                <div class="select">
+                    <select id="primero">
+                        <option selected value="0">...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select id="segundo">
+                        <option selected value="0">...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select  id="tercero">
+                        <option selected value="0">...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <div class="evento2">
+                    <p id="advertencia2"></p>
+                    <button onclick="password()" type="button">Verificar</button>
+                </div>
+            </div>
+            <div class="mb2">
+                <img onclick="border2()" class="imgmb2" src="assets/img/sm2.png" alt="">
+                <h1>Haz click en la imagen</h1>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
